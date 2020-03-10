@@ -1,4 +1,4 @@
-# FLICA code
+# FLICA
 
 ## Code for FLICA as implemented in FSL
 
