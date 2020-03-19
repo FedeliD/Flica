@@ -137,6 +137,14 @@ done
 #makes a beep sound when finished
 ( speaker-test -t sine -f 1000 )& pid=$! ; sleep 0.2s ; kill -9 $pid
 
+mv merged_abscurv_lh.mgh lh.abscurv.fsaverage.mgh
+mv merged_abscurv_rh.mgh rh.abscurv.fsaverage.mgh
+mv merged_area_lh.mgh lh.area.fsaverage.mgh
+mv merged_area_rh.mgh rh.area.fsaverage.mgh
+mv merged_curv_lh.mgh lh.curv.fsaverage.mgh
+mv merged_curv_rh.mgh rh.curv.fsaverage.mgh
+mv merged_thickness_lh.mgh lh.thick.fsaverage.mgh
+mv merged_thickness_rh.mgh rh.thick.fsaverage.mgh
 
 =======================================================================================================
 
