@@ -134,6 +134,9 @@ for i in lh.PCS-VBM-*.curv.00.mgh; do
 done
   mri_concat lh.*abscurv.20B.mgh --o merged_abscurv_lh.mgh
 
+#makes a beep sound when finished
+( speaker-test -t sine -f 1000 )& pid=$! ; sleep 0.2s ; kill -9 $pid
+
 
 =======================================================================================================
 
